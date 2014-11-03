@@ -2,6 +2,8 @@
 Using python! (Images with [matplotlib](http://matplotlib.org/))
 
 ## Visualizing Performance
+Error is calculated as the number of incorrect labelings, using k-nn conditioned on
+the training set, compared to the actual labelings of the test set.
 ![Percent Error vs. K Value](https://github.com/FluxLemur/learningtheory/blob/master/knn/images/error_log.png)
 Very small k (< 10) classification is prone to error due to noise in the training set.
 ![1 Closest Neighbor](https://github.com/FluxLemur/learningtheory/blob/master/knn/images/region_1.png)
