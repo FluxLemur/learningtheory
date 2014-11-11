@@ -107,12 +107,13 @@ title('Performance of K-NN')
 xlabel('K value')
 ylabel('Percent Error')
 show()
-
 '''
 
+'''
 # Display points and boundary region for given k value
-k = 75
+k = 1
 plot_data(trainS)
 decision_regions(trainS, k)
 title(str(k) + '-NN Boundary Regions')
 show()
+'''
